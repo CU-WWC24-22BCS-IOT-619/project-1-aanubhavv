@@ -6,6 +6,7 @@ This is a mental health tracking application built using Next.js. It is designed
 - **Daily Mood Tracking:** Log daily moods and feelings.
 - **Activity Journaling:** Document daily activities and their impact on mental health.
 - **Progress Reports:** Visualize mental health trends over time.
+- **Curated assessments:** Assess your mental health using speacialy designed questions.  
 - **Professional support:** Access mental health resources and articles.
 - **Secure Data Handling:** Ensure privacy and security of user data.
 
