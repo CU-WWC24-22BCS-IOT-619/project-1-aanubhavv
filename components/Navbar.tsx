@@ -61,7 +61,7 @@ export default function App() {
               color={
                 index === 2 ? "primary" : index === menuItems.length - 1 ? "danger" : "foreground"
               }
-              href="#"
+              href={item.path}
               size="lg"
             >
               {item.name}
