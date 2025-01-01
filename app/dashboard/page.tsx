@@ -40,11 +40,11 @@ export default function Dashboard() {
               <CardDescription>Visual representation of your mood levels</CardDescription>
             </CardHeader>
             <CardContent>
-              <div className="flex items-center px-4">
+              <div className="flex flex-col md:flex-row items-center px-4">
                 <div className="w-full max-w-xs">
                   <Pie data={data} options={options} />
                 </div>
-                <div className="w-1/2 pl-4 ml-16">
+                <div className="w-full md:w-1/2 pl-0 md:pl-4 ml-0 md:ml-16 mt-4 md:mt-0">
                   <p className="text-sm text-gray-500">Today&apos;s Date: {today}</p>
                   <h2 className="text-xl font-semibold">You are feeling happy but a bit anxious!</h2>
                   <p>Your current mood is positive! Keep up the good work.</p>
